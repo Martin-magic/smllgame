@@ -1,0 +1,12 @@
+{
+  "name": "plane-game",
+  "version": "1.0.0",
+  "description": "飞机大战小游戏",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve"
+  },
+  "dependencies": {
+    "serve": "^14.2.0"
+  }
+}
