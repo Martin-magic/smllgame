@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+#game {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+#hud {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#hud div {
+  margin: 5px 0;
+}
+
+canvas {
+  display: block;
+  background: #000;
+}
